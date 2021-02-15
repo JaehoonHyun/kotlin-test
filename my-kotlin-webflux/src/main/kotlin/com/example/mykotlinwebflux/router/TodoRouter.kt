@@ -1,7 +1,6 @@
 package com.example.mykotlinwebflux.router
 
 import com.example.mykotlinwebflux.handler.TodoHandler
-import com.example.mytodo.handler.TodoHandler
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.web.reactive.function.server.RequestPredicates.path

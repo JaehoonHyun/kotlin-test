@@ -1,6 +1,5 @@
-package com.example.mytodo.domain
+package com.example.mykotlinwebflux.domain
 
-import com.example.mykotlinwebflux.domain.Todo
 import org.springframework.data.jpa.repository.JpaRepository
 
 interface TodoRepository : JpaRepository<Todo, Long>
